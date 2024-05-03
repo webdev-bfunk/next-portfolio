@@ -11,6 +11,17 @@
     top: 0;
     left: 0;
     z-index: 10;
+    animation: SlideIn 3s ease-in-out;
+}
+
+
+@keyframes SlideIn {
+    0% {
+        transform: translateY(-200%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .navContainer {

@@ -14,7 +14,7 @@ const Header = () => {
         <header className={`container ${styles.header}`}>
             <div className={styles.headerLeft}>
                 <h1>Get your business online the right way!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic deleniti accusantium repellat qui nemo libero. Minima ratione doloremque, voluptatem explicabo ullam adipisci voluptates quaerat suscipit nostrum, sapiente corporis? Magni, quis.</p>
+                <p>At RunCmdCreate, every command is a brushstroke, and every keystroke is an opportunity to build something extraordinary. Join us on this journey where technology meets artistry, and let's bring your digital vision to life, one command at a time.</p>
                 <div className={styles.headersCta}>
                     <Link href="/porfolio" className='btn'>Projects</Link>
                     <Link href="/contact" className='btn primary'>Hire me</Link>

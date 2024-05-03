@@ -6,6 +6,10 @@
     gap: 7rem;
 }
 
+.headerLeft {
+       animation: titleSlideIn 3s ease-in-out;
+}
+
 .headerLeft p {
     margin: 0.8rem 0 2.5rem;
     font-size: 1.1rem;
@@ -19,49 +23,69 @@
 .headerRight {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+   animation: titleSlideInRight 3s ease-in-out;
 }
 
 .card1 {
     border-radius: 5rem 5rem 0 5rem;
     overflow: hidden;
-    animation: portrait 10s linear alternate 
+    animation: portrait 20s linear alternate 
     infinite;
 }
 
 .card2 {
     border-radius: 5rem 5rem 5rem 0;
     overflow: hidden;
-    animation: portrait 20s linear alternate 
+    animation: portrait 30s linear alternate 
     infinite;
 }
 
 .card3 {
     border-radius: 5rem 0 5rem 5rem;
     overflow: hidden;
-    animation: portrait 25s linear alternate 
+    animation: portrait 45s linear alternate 
     infinite;
 }
 
 .card4 {
     border-radius: 0 5rem 5rem 5rem;
     overflow: hidden;
-    animation: portrait 15s linear alternate 
+    animation: portrait 55s linear alternate 
     infinite;
 }
 
+
+@keyframes titleSlideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes titleSlideInRight {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 @keyframes portrait {
+    
     0% {
         filter: saturate(1) opacity(1) blur(0);
     }
     20% {
-               filter: saturate(0) opacity(1) blur(0);
+        filter: saturate(0) opacity(1) blur(0);
     }
     50% {
-               filter: saturate(0) opacity(0) blur(10px);
+        filter: saturate(0) opacity(0) blur(10px);
     }
     100% {
-               filter: saturate(1) opacity(1) blur(0);
+        filter: saturate(1) opacity(1) blur(0);
     }
 }
 
