@@ -23,51 +23,51 @@ const SkillsSection = () => {
                 </div>
                 <div className={styles.right}>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><IoLogoReact /></span>
+                        <span className={styles.icon}><IoLogoReact /><h4>React</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><DiPhotoshop /></span>
+                        <span className={styles.icon}><DiPhotoshop /><h4>Photoshop</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><IoLogoCss3 /></span>
+                        <span className={styles.icon}><IoLogoCss3 /><h4>CSS</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><BiLogoTailwindCss /></span>
+                        <span className={styles.icon}><BiLogoTailwindCss /><h4>TailwindCSS</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><IoLogoGithub /></span>
+                        <span className={styles.icon}><IoLogoGithub /><h4>Github</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><IoLogoHtml5 /></span>
+                        <span className={styles.icon}><IoLogoHtml5 /><h4>HTML5</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><BiLogoTypescript /></span>
+                        <span className={styles.icon}><BiLogoTypescript /><h4>Typescript</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><IoLogoNodejs /></span>
+                        <span className={styles.icon}><IoLogoNodejs /><h4>NodeJS</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><BiLogoJavascript /></span>
+                        <span className={styles.icon}><BiLogoJavascript /><h4>Javascript</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><TbBrandFramerMotion /></span>
+                        <span className={styles.icon}><TbBrandFramerMotion /><h4>Framer Motion</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><TbBrandMongodb /></span>
+                        <span className={styles.icon}><TbBrandMongodb /><h4>MongoDB</h4></span>
 
                     </Link>
                     <Link href="/skills" className={`${styles.skill}`}>
-                        <span className={styles.icon}><TbBrandThreejs /></span>
+                        <span className={styles.icon}><TbBrandThreejs /><h4>ThreeJS</h4></span>
 
                     </Link>
                 </div>

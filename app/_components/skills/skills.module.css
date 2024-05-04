@@ -39,6 +39,7 @@
     justify-content: center;
     width: 140px; /* Adjust width to desired size */
     height: 140px; /* Adjust height to desired size */
+    text-align: center;
 }
 
 .icon {
