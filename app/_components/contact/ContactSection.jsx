@@ -7,6 +7,12 @@ const ContactSection = () => {
             <div className={`container ${styles.contactWrapper}`}>
                 <h2>Contact Me</h2>
                 <p>Reach out to me about job opportunities, help with a project, or just to say hi!</p>
+                <div className={styles.inputWrapper}>
+                    <input />
+                    <input />
+                    <textarea />
+                    <button>Send</button>
+                </div>
             </div>
         </div>
     )
