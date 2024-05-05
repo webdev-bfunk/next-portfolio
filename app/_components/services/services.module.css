@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.header {
+    text-align: start;
+}
+
 .service {
     display: flex;
     align-items: center;

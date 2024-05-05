@@ -8,6 +8,7 @@ const ServicesSection = () => {
     return (
         <section className={styles.services}>
             <div className={`container ${styles.servicesWrapper}`}>
+                <h2 className={styles.header}>Services I offer</h2>
 
                 <Link href="/services" className={`btn ${styles.service}`}>
                     <span className={styles.icon}><MdDesignServices /></span>
