@@ -1,32 +1,40 @@
 .section {
-    padding-top: 7rem;
+  padding-top: 7rem;
 }
 
-
 .contactWrapper {
-    display: flex;
-    flex-direction: column;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .inputWrapper {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-        flex-direction: column;
-    width: 45%;
+  display: flex;
+
+  gap: 2rem;
+  flex-direction: column;
+  width: 45%;
 }
 
 .inputs {
-    padding: 1rem;
-    margin-top: 2rem;
+  padding: 1rem;
 }
 
 .inputs {
-    resize: none;
+  resize: none;
 }
 
 .sendBtn {
-    padding: .5rem;
-    background-color: var(--color-primary);
-    cursor: pointer;
+  padding: 0.5rem;
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.rightSide {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.tagline {
+  font-size: 1.6rem;
+  color: var(--color-secondary);
 }
